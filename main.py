@@ -4,7 +4,7 @@ import google.generativeai as genai
 from docx import Document
 
 # Initialize Gemini-Pro 
-genai.configure(api_key="AIzaSyAUapxNs5faAro8S-GyhypH5p_m3rJZVp0")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-pro')
 
 # Gemini uses 'model' for assistant; Streamlit uses 'assistant'
